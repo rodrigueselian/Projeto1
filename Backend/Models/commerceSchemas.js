@@ -75,6 +75,6 @@ const order = new Schema({
     }
 })
 
-export default mongoose.model('products', products);
-export default mongoose.model('user', user);
-export default mongoose.model('order', order);
+export default mongoose.model('Products', products);
+export default mongoose.model('User', user);
+export default mongoose.model('Order', order);
